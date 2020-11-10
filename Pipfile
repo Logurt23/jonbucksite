@@ -6,11 +6,6 @@ verify_ssl = true
 
 [dev-packages]
 
-
-[requires]
-python_version = "3.8"
-
-
 [packages]
 django-heroku = "*"
 gunicorn = "*"
