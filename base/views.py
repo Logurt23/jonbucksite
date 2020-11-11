@@ -11,6 +11,15 @@ def homepage(request):
 
     })
 
+def about(request):
+    return render(request, 'base/about.html',)
+
+def contact(request):
+    return render(request, 'base/contact.html',)
+
+def projectlist(request):
+    return render(request, 'base/projectlist.html',)
+
 def project1(request):
     return render(request, 'base/project1.html',)
 
