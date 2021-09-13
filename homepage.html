@@ -1,11 +1,124 @@
-{% extends 'base.html' %}
+<html lang="en-US">
 
-{% block title %}
-  Jon Buck | Homepage
-{% endblock %}
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="discrption" content="parallax one page">
+    <meta name="keyword" content="agency, business, corporate, creative, freelancer, interior, joomla template, K2 Blog, minimal, modern, multipurpose, personal, portfolio, responsive, simple">
+
+    <title>Jon Buck</title>
+
+    <!-- Font Google -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&amp;subset=latin-ext" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="icon" href="img/favicon.ico">
+
+    <!-- custom styles (optional) -->
+    <link href="css/plugins.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--  DSN Loader
+  ================================================== -->
+  <div class="dsn-loader">
+      <div class="dsn-up"></div>
+      <div class="dsn-progress-page"></div>
+      <div class="dsn-down"></div>
+  </div>
+  <!-- End DSN Loader
+  ================================================== -->
+
+  <!-- Sticky Menu
+  ================================================== -->
+  <div class="header-top nav-mobile">
+      <div class="header-container">
+
+          <div class="logo">
+              <a href="homepage.html">
+                  <img src="img/logo.png" alt="">
+              </a>
+          </div>
+
+          <div class="menu-icon" data-dsn-grid="parallax" data-dsn-grid-move="50">
+              <div class="icon-m">
+                  <span class="menu-icon__line menu-icon__line-left"></span>
+                  <span class="menu-icon__line"></span>
+                  <span class="menu-icon__line menu-icon__line-right"></span>
+              </div>
+          </div>
+
+          <div class="nav">
+              <div class="inner">
+                  <div class="logo">
+                      <a href="homepage.html">
+                          <img src="img/logo-dark.png" alt="">
+                      </a>
+                  </div>
+                  <div class="nav__content">
+                      <ul class="nav__list">
+                          <li class="nav__list-item">
+                              <a href="#">Home</a>
+                          </li>
+                          <li class="nav__list-item nav__list-dropdown">
+                              <a href="projectlist.html">Projects</a>
+                          </li>
+                          <li class="nav__list-item"><a href="contact.html">Contact</a></li>
+                      </ul>
+                      <address>
+                          United States<br>
+                          Address, Joplin, Missouri 64801<br>
+                          Phone: (417) 483-7700 , jontbuck@gmail.com
+                      </address>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+
+  </div>
+  <div class="site-header">
+      <div class="extend-container">
+          <div class="inner-header">
+              <div class="main-logo">
+                  <a href="#">
+                      <img src="img/logo.png" alt="">
+                  </a>
+              </div>
+          </div>
+          <nav class=" accent-menu main-navigation">
+              <ul class="extend-container">
+                  <li class="custom-drop-down">
+                      <a href="#">Home</a>
+                  </li>
+                  <li class="custom-drop-down">
+                      <a href="projectlist.html">Projects</a>
+                      <ul>
+                          <li><a href="project1.html">Sponsor A Veteran</a></li>
+                          <li><a href="project2.html">Gift Card of Time</a></li>
+                          <li><a href="project3.html">Joplin First</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="about.html">About</a></li>
+
+                  <div class="by-now">
+                      <a href="contact.html">Contact</a>
+                  </div>
+              </ul>
+          </nav>
+      </div>
+  </div>
 
 
-{% block content %}
+
     <main class="root">
         <div class="dsn-grid-color">
             <div class="dsn-grid-root dsn-grid-slider">
@@ -25,9 +138,9 @@
 
                         <!-- Slider Prev -->
                         <div class="dsn-grid-prev">
-                            <div class="img cover-bg" onclick="return false" data-id="3" data-image-src="/static/assets/img/slider-2.jpg"></div>
-                            <div class="img cover-bg" onclick="return false" data-id="1" data-image-src="/static/assets/img/slider-3.jpg" data-overlay="2"></div>
-                            <div class="img cover-bg" onclick="return false" data-id="2" data-image-src="/static/assets/img/slider-1.jpg"></div>
+                            <div class="img cover-bg" onclick="return false" data-id="3" data-image-src="img/slider-2.jpg"></div>
+                            <div class="img cover-bg" onclick="return false" data-id="1" data-image-src="img/slider-3.jpg" data-overlay="2"></div>
+                            <div class="img cover-bg" onclick="return false" data-id="2" data-image-src="img/slider-1.jpg"></div>
 
                         </div>
                         <!-- End Slider Prev -->
@@ -111,10 +224,10 @@
                             <div class="dsn-grid-hover-label"></div>
                             <div class="dsn-grid-hover-pic"></div>
                             <div class="dsn-grid-slider-effect">
-                                <div class="img cover-bg" data-id="1" data-image-src="/static/assets/img/slider-1.jpg"
+                                <div class="img cover-bg" data-id="1" data-image-src="img/slider-1.jpg"
                                     data-overlay="2"></div>
-                                <div class="img cover-bg" data-id="2" data-image-src="/static/assets/img/slider-2.jpg"></div>
-                                <div class="img cover-bg" data-id="3" data-image-src="/static/assets/img/slider-3.jpg"></div>
+                                <div class="img cover-bg" data-id="2" data-image-src="img/slider-2.jpg"></div>
+                                <div class="img cover-bg" data-id="3" data-image-src="img/slider-3.jpg"></div>
                             </div>
 
                         </div>
@@ -161,4 +274,12 @@
         </div>
     </main>
 
-{% endblock %}
+    <!-- Optional JavaScript -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/dsn-grid.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

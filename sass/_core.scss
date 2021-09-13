@@ -3,7 +3,7 @@
 -------------------------------------------------------- */
 body {
   background-color: #1b1b1b !important;
-  cursor: url(../img/dot.png) 3 3, auto !important;
+  cursor: url(..img/dot.png) 3 3, auto !important;
   overflow: hidden !important;
 
   &.light-v {
@@ -753,7 +753,7 @@ Override Circle -- Mouse
 
   .close-filters {
     position: fixed;
-    cursor: url(../img/close_fliter.png) 3 3, auto !important;
+    cursor: url(..img/close_fliter.png) 3 3, auto !important;
     height: 100vh;
     width: 100vw;
     top: 0;
